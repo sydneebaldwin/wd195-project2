@@ -1,0 +1,99 @@
+/* FONTS USED IN PROJECT
+
+font-family: birch-std, serif;
+font-weight: 400;
+
+font-family: sabbath-black, serif;
+font-weight: 400;
+
+font-family: sabbath-black, serif;
+font-weight: 800;
+*/
+
+:root {
+    --black: #0e0e0e;
+    --bright-red: #b70004;
+    --dark-red: #7a0113;
+    --white: #F0F4F5;
+}
+
+nav.navbar {
+    background-color: var(--black);
+    color: var(--bright-red);
+}
+
+span.navbar-brand, .nav-link, .display-2, footer h2, footer p {
+    font-family: birch-std, serif;
+  /*  font-weight: 400;
+    text-transform: uppercase;
+    font-size: 3rem; */
+    color: var(--bright-red);
+}
+
+.navbar-brand span, span.display-1, .card-title span, footer h2 span {
+    font-family: sabbath-black, serif;
+   /* font-weight: 800;
+    font-size: 3.5rem; */
+}
+
+.hero {
+    height: 90vh;
+    background-image: url(../images/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tour-dates, .tour-dates .card {
+    background-color: var(--dark-red);
+    color: var(--white);
+}
+
+.card-title {
+    font-family: birch-std, serif;
+}
+
+.card-footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.card-footer small, .tour-dates > p {
+    font-family: birch-std, serif;
+}
+
+.hero > span {
+    border-color: var(--dark-red) !important;
+    padding: 10rem 25rem !important;
+}
+
+footer img {
+    width: auto;
+    height: 2.5rem;
+}
+
+.about {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: birch-std, serif;
+    
+}
+
+.tour-page {
+    background-image: url(../images/tour-cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    font-family: sabbath-black, serif;
+    color: var(--black);
+}
+
+.tour-page p {
+    font-family: birch-std, serif;
+}
+
+.tracks h3, .tracks p {
+    font-family: birch-std, serif;
+    color: var(--white);
+}
