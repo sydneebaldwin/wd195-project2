@@ -170,6 +170,58 @@ footer a img:hover {
     /*2.4vw*/
 }
 
+/* VIDEO PAGE */
+
+.carousel {
+    background-color: blue;
+    height: 70vh;
+    /* background-image: url(../images/home-hero.jpg); */
+}
+
+.carousel-indicators {
+    /* position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+
+    box-sizing: content-box;
+    flex: 0 1 auto; */
+    /* padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: var(--bs-carousel-indicator-active-bg);
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease; */
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: var(--dark-red) solid 2px;
+    margin: 0 10px;
+    background-color: var(--white);
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: var(--dark-red);
+}
+
 
 /* SMALL */
 @media (min-width: 576px) {
