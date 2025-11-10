@@ -172,28 +172,29 @@ footer a img:hover {
 
 /* VIDEO PAGE */
 
-.carousel {
-    background-color: blue;
-    height: 70vh;
-    /* background-image: url(../images/home-hero.jpg); */
+/* .carousel {
+    background-color: var(--white);
+    background-image: url(../images/video-border.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .carousel-indicators {
-    /* position: absolute;
+    /*position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 2;
     display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
+    justify-content: center; */
+    /*margin-right: 15%;
     margin-bottom: 1rem;
-    margin-left: 15%;
+    margin-left: 15%; */
 
-    box-sizing: content-box;
-    flex: 0 1 auto; */
-    /* padding: 0;
+    /* box-sizing: content-box;
+    flex: 0 1 auto;
+    padding: 0;
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
@@ -206,6 +207,8 @@ footer a img:hover {
     opacity: .5;
     transition: opacity .6s ease; */
 
+/* .carousel-item {
+    margin: 30vh 0;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -220,6 +223,14 @@ footer a img:hover {
 
 .carousel-indicators .active {
     background-color: var(--dark-red);
+} */
+
+.video-frame {
+    background-image: url(../images/video-border.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 4rem;
 }
 
 
@@ -227,6 +238,10 @@ footer a img:hover {
 @media (min-width: 576px) {
         .album-info {
         font-size: max(2.8vw, 1rem);
+    }
+
+    .video-frame {
+        padding: 5rem;
     }
 }
 
@@ -240,18 +255,27 @@ footer a img:hover {
     height: 80vh;
     padding: 0 10vw;
     }
+
+    .video-frame {
+        padding: 7rem;
+    }
+
 }
 
 /* LARGE */
 @media (min-width: 992px) {
-    .album-info {
-
-}
+    .video-frame {
+        padding: 10rem;
+    }
 }
 
 /* XL */
 @media (min-width: 1200px) {
         .album-info {
         font-size: min(2.8vw, 1.8rem);   
-}  
+} 
+
+.video-frame {
+        padding: 12rem;
+    }
 }
