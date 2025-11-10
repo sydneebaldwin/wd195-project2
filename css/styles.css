@@ -22,7 +22,7 @@ nav.navbar {
     color: var(--bright-red);
 }
 
-span.navbar-brand, .nav-link, .display-2, footer h2, footer p {
+a.navbar-brand, .nav-link, .display-2, footer h2, footer p {
     font-family: birch-std, serif;
   /*  font-weight: 400;
     text-transform: uppercase;
