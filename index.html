@@ -12,91 +12,95 @@
 
 <nav class="navbar px-3 navbar-expand-lg">
   <div class="container-fluid d-flex align-items-center justify-content-between">
-    <span class="navbar-brand text-uppercase fs-2" href="#"><span class="fs-1">p</span>aris <span class="fs-1">p</span>aloma</span> <!-- <a> for non index pages (link to home)-->
+    <span class="navbar-brand text-uppercase fs-2" href="./index.html"><span class="fs-1">p</span>aris <span class="fs-1">p</span>aloma</span> <!-- <a> for non index pages (link to home)-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav fs-3 text-uppercase">
-        <a class="nav-link" aria-current="page" href="#">about</a> <!--switch aria current to page file-->
-        <a class="nav-link" href="#">videos</a>
-        <a class="nav-link" href="#">discography</a>
-        <a class="nav-link" href="#">tour</a>
+        <a class="nav-link" href="./about.html">about</a>
+        <a class="nav-link" href="./videos.html">videos</a>
+        <a class="nav-link" href="./discography.html">discography</a>
+        <a class="nav-link" href="./tour.html">tour</a>
       </div>
     </div>
   </div>
 </nav>
 
+<!--HERO-->
+
 <section class="hero d-flex justify-content-center align-items-center text-center">
-  <div class="p-5 border border-4">
-    <h1 class="display-2 text-uppercase"><span class="display-1">p</span>aris <span class="display-1">p</span>aloma</h1>
+  <div class="border border-4 d-flex justify-content-center align-items-center">
+    <h1 class="text-uppercase lh-1 d-lg-none"><span class="">p</span>aris <span class="">p</span>aloma</h1>
+    <h1 class="text-uppercase lh-1 d-none d-lg-block"><span class="">p</span>aris <span class="">p</span>aloma</h1>
   </div>
   </section>
 
 <!--TOUR DATES-->
 
-<section class="tour-dates p-5 container-fluid row justify-content-around align-items-center">
-  <p class="me-4 text-end text-uppercase fs-1 lh-1 col-1 d-none d-lg-grid">tour dates</p>
-   <!--<div class="card-group container-fluid row">-->
+<section class="tour-dates p-5 container-fluid">
+  <div class="row justify-content-around align-items-center row-wrap gy-4 gx-sm-1">
 
-  <div class="card rounded-0 border-black border-3 col-2 text-uppercase text-center p-0 shadow">
+  <p class="display-5 text-end text-uppercase lh-1 col-1 d-none d-lg-grid">tour dates</p>
+
+  <div class="card rounded-0 border-black border-3 col-5 col-sm-auto text-uppercase text-center p-0 shadow">
     <div class="card-body">
-      <h5 class="card-title fs-1">jan<br><span class="fs-1">11</span></h5>
+      <h5 class="card-title display-5">jan<br><span class="display-1 lh-1">11</span></h5>
     </div>
     <div class="card-footer rounded-0">
-      <small class="fs-3">brisbane, australia</small>
+      <small class="fs-5 fs-md-3">brisbane, australia</small>
     </div>
   </div>
 
-  <div class="card rounded-0 border-black border-3 col-2 text-uppercase text-center p-0 shadow">
+  <div class="card rounded-0 border-black border-3 col-5 col-sm-auto text-uppercase text-center p-0 shadow">
     <div class="card-body">
-      <h5 class="card-title fs-1">jan<br><span class="fs-1">13</span></h5>
+      <h5 class="card-title display-5">jan<br><span class="display-1 lh-1">13</span></h5>
     </div>
     <div class="card-footer rounded-0">
-      <small class="fs-3">northcote, australia</small>
+      <small class="fs-5 fs-md-3">northcote, australia</small>
     </div>
   </div>
 
-  <div class="card rounded-0 border-black border-3 col-2 text-uppercase text-center p-0 shadow">
+  <div class="card rounded-0 border-black border-3 col-5 col-sm-auto text-uppercase text-center p-0 shadow">
     <div class="card-body">
-      <h5 class="card-title fs-1">jan<br><span class="fs-1">15</span></h5>
+      <h5 class="card-title display-5">jan<br><span class="display-1 lh-1">15</span></h5>
     </div>
     <div class="card-footer rounded-0">
-      <small class="fs-3">adelaide, australia</small>
+      <small class="fs-5 fs-md-3">adelaide, australia</small>
     </div>
   </div>
 
-  <div class="card rounded-0 border-black border-3 col-2 text-uppercase text-center p-0 shadow">
+  <div class="card rounded-0 border-black border-3 col-5 col-sm-auto text-uppercase text-center p-0 shadow">
     <div class="card-body">
-      <h5 class="card-title fs-1">jan<br><span class="fs-1">17</span></h5>
+      <h5 class="card-title display-5">jan<br><span class="display-1 lh-1">17</span></h5>
     </div>
     <div class="card-footer rounded-0">
-      <small class="fs-3">fremantle, australia</small>
+      <small class="fs-5 fs-md-3">fremantle, australia</small>
     </div>
   </div>
-<!--</div> -->
+</div>
 </section>
 
 
-<section class="container-fluid">
+<section class="news-articles container-fluid py-5 px-5">
     <div class="row">
-        <h3>in recent news</h3>
+        <h3 class="display-3 text-uppercase text-center pb-4">in recent news</h3>
     </div>
-    <div>
-        <a href=""><img src="./images/news1.png" class="img-fluid"></a>
-        <a href=""><img src="./images/news2.png" class="img-fluid"></a>
-        <a href=""><img src="./images/news3.png" class="img-fluid"></a>
+    <div class="row justify-content-center g-5">
+        <a href="https://faroutmagazine.co.uk/track-of-the-week-paris-paloma-good-boy/" target="_blank" class="col-10 col-sm-8 col-md-4 news"><img src="./images/news1.png" class="img-fluid shadow-sm"></a>
+        <a href="https://www.papermag.com/paris-paloma-cacophony-interview" target="_blank" class="col-10 col-sm-8 col-md-4 news"><img src="./images/news2.png" class="img-fluid shadow-sm"></a>
+        <a href="https://www.npr.org/2024/09/30/1202833915/paris-paloma-album-cacophony" target="_blank" class="col-10 col-sm-8 col-md-4 news"><img src="./images/news3.png" class="img-fluid shadow-sm"></a>
     </div>
-</section>
+</section> 
 
 <footer class="bg-black d-flex flex-row p-4 justify-content-center justify-content-lg-between align-items-center text-uppercase">
     <h2 class="lh-1 fs-2 text-center d-none d-lg-block"><span class="fs-1">p</span>aris<br><span class="fs-1">p</span>aloma</h2>
     <div>
         <div class="d-flex p-3 justify-content-center align-items-center gap-3">
-            <img src="./images/youtube.png" alt="youtube icon" class="w-auto h-10">
-            <img src="./images/instagram.png" alt="instagram icon">
-            <img src="./images/apple-music.png" alt="apple music icon">
-            <img src="./images/tiktok.png" alt="tiktok icon">
+            <a href="https://www.youtube.com/channel/UCdNen4E3nI4P5_5M8s1hz1w" target="_blank"><img src="./images/youtube.png" alt="youtube icon" class="w-auto h-10"></a>
+            <a href="https://www.instagram.com/parispaloma/" target="_blank"><img src="./images/instagram.png" alt="instagram icon"></a>
+            <a href="https://music.apple.com/us/artist/paris-paloma/1530898376" target="_blank"><img src="./images/apple-music.png" alt="apple music icon"></a>
+            <a href="https://www.tiktok.com/@parispalomaofficial" target="_blank"><img src="./images/tiktok.png" alt="tiktok icon"></a>
         </div>
         <p class="fs-3 text-center">© paris paloma 2025</p>
     </div>

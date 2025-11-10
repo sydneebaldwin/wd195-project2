@@ -12,23 +12,23 @@
 
 <nav class="navbar px-3 navbar-expand-lg">
   <div class="container-fluid d-flex align-items-center justify-content-between">
-    <span class="navbar-brand text-uppercase fs-2" href="#"><span class="fs-1">p</span>aris <span class="fs-1">p</span>aloma</span> <!-- <a> for non index pages (link to home)-->
+    <span class="navbar-brand text-uppercase fs-2" href="./index.html"><span class="fs-1">p</span>aris <span class="fs-1">p</span>aloma</span> <!-- <a> for non index pages (link to home)-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav fs-3 text-uppercase">
-        <a class="nav-link" aria-current="page" href="#">about</a> <!--switch aria current to page file-->
-        <a class="nav-link" href="#">videos</a>
-        <a class="nav-link" href="#">discography</a>
-        <a class="nav-link" href="#">tour</a>
+        <a class="nav-link" href="./about.html">about</a>
+        <a class="nav-link" href="./videos.html">videos</a>
+        <a class="nav-link" href="./discography.html">discography</a>
+        <a class="nav-link" aria-current="page" href="./tour.html">tour</a>
       </div>
     </div>
   </div>
 </nav>
 
-<section class="tour-page container-fluid p-5">
-    <h3 class="display-3">Upcoming Shows</h3>
+<section class="tour-page container-fluid d-flex flex-column align-items-center align-items-md-start justify-content-md-center">
+    <h3 class="display-3 mt-5 mt-md-0">Upcoming Shows</h3>
     <div>
         <h6 class="h1">Sunday, January 11th</h6>
         <p class="h3">The Tivoli | 19:00 | Brisbane, Australia</p>
@@ -41,20 +41,21 @@
         <h6 class="h1">Thursday, January 15th</h6>
         <p class="h3">Hindley Street Music Hall | 19:30 | Adelaide, Australia</p>
     </div>
-    <div>
+    <div class="mb-5 mb-md-0">
         <h6 class="h1">Saturday, January 17th</h6>
         <p class="h3">Freo.Social | 19:30 | Fremantle, Australia</p>
     </div>
+    <img class="img-fluid d-md-none" src="./images/tour-cover-mobile.png" alt="paris paloma">
 </section>
     
 <footer class="bg-black d-flex flex-row p-4 justify-content-center justify-content-lg-between align-items-center text-uppercase">
     <h2 class="lh-1 fs-2 text-center d-none d-lg-block"><span class="fs-1">p</span>aris<br><span class="fs-1">p</span>aloma</h2>
     <div>
         <div class="d-flex p-3 justify-content-center align-items-center gap-3">
-            <img src="./images/youtube.png" alt="youtube icon" class="w-auto h-10">
-            <img src="./images/instagram.png" alt="instagram icon">
-            <img src="./images/apple-music.png" alt="apple music icon">
-            <img src="./images/tiktok.png" alt="tiktok icon">
+            <a href="https://www.youtube.com/channel/UCdNen4E3nI4P5_5M8s1hz1w" target="_blank"><img src="./images/youtube.png" alt="youtube icon" class="w-auto h-10"></a>
+            <a href="https://www.instagram.com/parispaloma/" target="_blank"><img src="./images/instagram.png" alt="instagram icon"></a>
+            <a href="https://music.apple.com/us/artist/paris-paloma/1530898376" target="_blank"><img src="./images/apple-music.png" alt="apple music icon"></a>
+            <a href="https://www.tiktok.com/@parispalomaofficial" target="_blank"><img src="./images/tiktok.png" alt="tiktok icon"></a>
         </div>
         <p class="fs-3 text-center">© paris paloma 2025</p>
     </div>

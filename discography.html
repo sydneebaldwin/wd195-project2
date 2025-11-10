@@ -12,62 +12,83 @@
 
 <nav class="navbar px-3 navbar-expand-lg">
   <div class="container-fluid d-flex align-items-center justify-content-between">
-    <span class="navbar-brand text-uppercase fs-2" href="#"><span class="fs-1">p</span>aris <span class="fs-1">p</span>aloma</span> <!-- <a> for non index pages (link to home)-->
+    <span class="navbar-brand text-uppercase fs-2" href="./index.html"><span class="fs-1">p</span>aris <span class="fs-1">p</span>aloma</span> <!-- <a> for non index pages (link to home)-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav fs-3 text-uppercase">
-        <a class="nav-link" aria-current="page" href="#">about</a> <!--switch aria current to page file-->
-        <a class="nav-link" href="#">videos</a>
-        <a class="nav-link" href="#">discography</a>
-        <a class="nav-link" href="#">tour</a>
+        <a class="nav-link" href="./about.html">about</a>
+        <a class="nav-link" href="./videos.html">videos</a>
+        <a class="nav-link" aria-current="page" href="./discography.html">discography</a>
+        <a class="nav-link" href="./tour.html">tour</a>
       </div>
     </div>
   </div>
 </nav>
 
 <section class="tracks container-fluid p-3 bg-black">
-    <div class="row justify-content-center mb-4">
+
+    <!-- <div class="row justify-content-center mb-5">
         <div class="col-5 align-content-center text-center justify-content-center">
             <img class="img-fluid" src="./images/goodboy.png" alt="Good Boy album cover">
             <h3 class="display-4 text-uppercase">good boy</h3>
         </div>
         <div class="col-5">
-            <p class="fs-6">“And I would not expect you to witness what we know, The songs sung in the dark times, the fire and the snow, We'll be piling up our pyre and you defend your lords”</p>
+            <p class="album-info">“And I would not expect you to witness what we know, The songs sung in the dark times, the fire and the snow, We'll be piling up our pyre and you defend your lords”</p>
+        </div>
+    </div> -->
+
+    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mb-5 mt-5 gap-2 gap-sm-4 ms-lg-5">
+        <div class="col-7 col-sm-5 col-md-4 text-center justify-content-center">
+            <img class="img-fluid" src="./images/goodboy.png" alt="Good Boy album cover">
+            <h3 class="display-4 text-uppercase mb-0">good boy</h3>
+        </div>
+        <div class="col-7 col-sm-4 col-lg-3">
+            <p class="album-info m-0">“And I would not expect you to witness what we know, The songs sung in the dark times, the fire and the snow, We'll be piling up our pyre and you defend your lords”</p>
         </div>
     </div>
 
-    <div class="row justify-content-center justify-content-lg-end mb-4 me-lg-5">
-        <div class="col-5 col-lg-4 order-lg-2 text-center justify-content-center">
+    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mb-5 mt-5 mt-md-0 gap-2 gap-sm-4 me-lg-5 align-items-lg-start">
+        <div class="col-7 col-sm-5 col-md-4 order-lg-2 text-center justify-content-center">
             <img class="img-fluid" src="./images/cacophony.png" alt="cacophony album cover">
-            <h3 class="display-4 text-uppercase">cacophony</h3>
+            <h3 class="display-4 text-uppercase mb-0">cacophony</h3>
         </div>
-        <div class="col-4 col-lg-4 order-lg-1 d-flex flex-column flex-sm-row gap-sm-3 justify-content-lg-end">
-            <p class="fs-6 m-0 text-lg-end">My Mind (Now)<br>Pleaser<br>His Land<br>Drywall<br>Labour<br>Boys, Bugs and Men<br>Knitting Song</p>
-            <p class="fs-6 m-0 text-lg-end">As Good a Reason<br>Triassic Love Song<br>Escape Pod<br>Last Woman on Earth<br>Bones on the Beach<br>Hunter<br>The Warmth<br>Yeti</p>
+        <div class="col-auto order-lg-1 d-flex flex-row gap-3">
+            <p class="album-info m-0 text-lg-end">My Mind (Now)<br>Pleaser<br>His Land<br>Drywall<br>Labour<br>Boys, Bugs and Men<br>Knitting Song</p>
+            <p class="album-info m-0 text-lg-end">As Good a Reason<br>Triassic Love Song<br>Escape Pod<br>Last Woman on Earth<br>Bones on the Beach<br>Hunter<br>The Warmth<br>Yeti</p>
         </div>
     </div>
 
-    <div class="row justify-content-center mb-4">
+        <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mb-5 mt-5 mt-md-0 gap-2 gap-sm-4 ms-lg-5">
+        <div class="col-7 col-sm-5 col-md-4 text-center justify-content-center">
+            <img class="img-fluid" src="./images/notredame.png" alt="Notre Dame album cover">
+            <h3 class="display-4 text-uppercase mb-0">notre dame</h3>
+        </div>
+        <div class="col-7 col-sm-4 col-lg-3">
+            <p class="album-info m-0">“Watching the figures, all the saints, but mostly sinners, Come and go and some are desperate, but the others have, The sense that they do belong, And I do not belong”</p>
+        </div>
+    </div>
+
+    <!-- <div class="row justify-content-center mb-4">
         <div class="col-5 align-content-center text-center justify-content-center">
             <img class="img-fluid" src="./images/notredame.png" alt="Notre Dame album cover">
             <h3 class="display-4 text-uppercase">notre dame</h3>
         </div>
         <div class="col-5">
-            <p class="fs-6">“Watching the figures, all the saints, but mostly sinners, Come and go and some are desperate, but the others have, The sense that they do belong, And I do not belong”</p>
+            <p class="album-info">“Watching the figures, all the saints, but mostly sinners, Come and go and some are desperate, but the others have, The sense that they do belong, And I do not belong”</p>
         </div>
-    </div>
+    </div> -->
 </section>
     
 <footer class="bg-black d-flex flex-row p-4 justify-content-center justify-content-lg-between align-items-center text-uppercase">
     <h2 class="lh-1 fs-2 text-center d-none d-lg-block"><span class="fs-1">p</span>aris<br><span class="fs-1">p</span>aloma</h2>
     <div>
         <div class="d-flex p-3 justify-content-center align-items-center gap-3">
-            <img src="./images/youtube.png" alt="youtube icon" class="w-auto h-10">
-            <img src="./images/instagram.png" alt="instagram icon">
-            <img src="./images/apple-music.png" alt="apple music icon">
-            <img src="./images/tiktok.png" alt="tiktok icon">
+            <a href="https://www.youtube.com/channel/UCdNen4E3nI4P5_5M8s1hz1w" target="_blank"><img src="./images/youtube.png" alt="youtube icon" class="w-auto h-10"></a>
+            <a href="https://www.instagram.com/parispaloma/" target="_blank"><img src="./images/instagram.png" alt="instagram icon"></a>
+            <a href="https://music.apple.com/us/artist/paris-paloma/1530898376" target="_blank"><img src="./images/apple-music.png" alt="apple music icon"></a>
+            <a href="https://www.tiktok.com/@parispalomaofficial" target="_blank"><img src="./images/tiktok.png" alt="tiktok icon"></a>
         </div>
         <p class="fs-3 text-center">© paris paloma 2025</p>
     </div>

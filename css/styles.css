@@ -36,6 +36,28 @@ span.navbar-brand, .nav-link, .display-2, footer h2, footer p {
     font-size: 3.5rem; */
 }
 
+.nav-link:hover, .navbar-brand:hover {
+    color: var(--dark-red) !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/menu-icon.png);
+}
+
+
+footer img {
+    width: auto;
+    height: 2.5rem;
+}
+
+footer a img:hover {
+    filter: brightness(0.8);
+    transition: filter 0.3s ease;
+}
+
+/* INDEX */
+
 .hero {
     height: 90vh;
     background-image: url(../images/home-hero.jpg);
@@ -63,14 +85,59 @@ span.navbar-brand, .nav-link, .display-2, footer h2, footer p {
 }
 
 .hero > span {
-    border-color: var(--dark-red) !important;
     padding: 10rem 25rem !important;
 }
 
-footer img {
-    width: auto;
-    height: 2.5rem;
+.news-articles {
+    font-family: birch-std, serif;
+    color: var(--black);
+    background-color: var(--white);
 }
+
+.news {
+    scale: 1;
+    transition: transform 0.3s ease;
+}
+
+.news:hover {
+    transform: scale(1.05);
+}
+
+.hero div {
+    width: 90%;
+    height: 80%;
+    border-color: var(--dark-red) !important;
+}
+
+.hero h1 {
+    color: var(--dark-red) !important;
+    font-size: 6rem;
+    font-family: birch-std, serif;
+}
+
+.hero h1 span {
+    color: var(--dark-red) !important;
+    font-family: sabbath-black, serif;
+    font-size: 7rem;
+}
+
+.hero h1:last-child {
+    font-size: 10rem;
+}
+
+.hero h1:last-child span {
+    font-size: 12rem;
+}
+
+.tour-dates small {
+    letter-spacing: 0.05rem;
+}
+
+.tour-dates p {
+    font-family: birch-std, serif;
+}
+
+/*ABOUT PAGE */
 
 .about {
     background-color: var(--black);
@@ -79,12 +146,10 @@ footer img {
     
 }
 
+/*TOUR PAGE*/
+
 .tour-page {
-    background-image: url(../images/tour-cover.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
+    background-color: #ececec;
     font-family: sabbath-black, serif;
     color: var(--black);
 }
@@ -93,7 +158,48 @@ footer img {
     font-family: birch-std, serif;
 }
 
+/*DISCOGRAPHY PAGE*/
+
 .tracks h3, .tracks p {
     font-family: birch-std, serif;
     color: var(--white);
+}
+
+.album-info {
+    font-size: max(4.6vw, 1rem);
+    /*2.4vw*/
+}
+
+
+/* SMALL */
+@media (min-width: 576px) {
+        .album-info {
+        font-size: max(2.8vw, 1rem);
+    }
+}
+
+/* MEDIUM */
+@media (min-width: 768px) {
+    .tour-page {
+    background-image: url(../images/tour-cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding: 0 10vw;
+    }
+}
+
+/* LARGE */
+@media (min-width: 992px) {
+    .album-info {
+
+}
+}
+
+/* XL */
+@media (min-width: 1200px) {
+        .album-info {
+        font-size: min(2.8vw, 1.8rem);   
+}  
 }
